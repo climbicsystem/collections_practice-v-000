@@ -22,7 +22,7 @@ end
 def kesha_maker(array)
   array.collect do |string|
     string.split("").collect.each_with_index do |string_array,index|
-      if index = 2
+      if index == 2
         string_array = "$"
       end
     end.join("")
