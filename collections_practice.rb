@@ -21,10 +21,8 @@ end
 
 def kesha_maker(array)
   array.collect do |string|
-    string.split("").each_with_index do |string_array,index|
-      if index == 2
-        string_array = "$"
-      end
-    end.join("")
+    string_array = string.split("")
+    string_array[2] = "$"
+    string = string_array.join
   end
 end
