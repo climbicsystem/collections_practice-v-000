@@ -24,3 +24,7 @@ def kesha_maker(array)
     string[2] = "$"
   end
 end
+
+def sum_array(array)
+  
+end
