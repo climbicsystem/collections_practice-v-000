@@ -30,3 +30,7 @@ def find_a(array)
     fruit.start_with?("a")
   end
 end
+
+def sum_array(array)
+  array.sum
+end
